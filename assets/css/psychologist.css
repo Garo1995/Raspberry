@@ -1,0 +1,192 @@
+.need-consult-sec{
+    margin-top: 40px;
+}
+.need-consult__info{
+    margin-top: 92px;
+    position: relative;
+}
+.need-consult__info:before {
+    content: url(../img/star-yellow.svg);
+    position: absolute;
+    left: 135px;
+    top: -40px;
+}
+.need-consult__info:after {
+    content: url(../img/star-yellow.svg);
+    position: absolute;
+    right: 165px;
+    top: 15px;
+}
+.need-consult__info h3{
+    color: #B60949;
+    text-align: center;
+}
+.need-consult__info ul{
+    max-width: 1135px;
+    width: 100%;
+    margin-left: auto;
+    list-style-type: disc;
+    margin-top: 118px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.need-consult__info ul:after{
+    content: url("../img/dinoz-2.svg");
+    position: absolute;
+    bottom: -36px;
+    right: 63px;
+}
+.need-consult__info ul li , .observation__info ul li{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.98px;
+    text-align: left;
+    color: #000000;
+}
+
+
+.observation-sec{
+    margin-top: 147px;
+    margin-bottom: 196px;
+}
+.observation-sec h3{
+    color: #B60949;
+    text-align: center;
+    text-transform: uppercase;
+}
+.observation__flex{
+    margin-top: 93px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.observation__photo{
+    display: flex;
+    max-width: 280px;
+    width: 100%;
+}
+.observation__info{
+    max-width: 1142px;
+    width: 100%;
+    position: relative;
+}
+.observation__info:after{
+    content: url(../img/star-yellow.svg);
+    position: absolute;
+    right: 125px;
+    bottom: 4px;
+
+}
+.observation__info ul{
+    margin-left: 30px;
+    list-style-type: disc;
+}
+.observation__info ul li{
+    margin-top: 20px;
+}
+.observation-sec-titele h3{
+    color: #B60949;
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 1036px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 1399px){
+    .need-consult__info {
+        margin-top: 50px;
+    }
+    .need-consult__info ul {
+        margin-top: 64px;
+        padding-left: 30px;
+
+    }
+    .need-consult__info ul li, .observation__info ul li {
+        font-size: 26px;
+        line-height: 30.98px;
+    }
+    .observation-sec-titele h3 {
+        max-width: 794px;
+    }
+    .observation-sec {
+        margin-top: 120px;
+        margin-bottom: 100px;
+    }
+
+}
+
+@media (max-width: 1199px){
+    .need-consult__info ul:after {
+        bottom: -51px;
+        right: 100px;
+    }
+    .need-consult__info:after {
+        right: 62px;
+        top: 28px;
+    }
+    .need-consult__info ul {
+        margin-top: 40px;
+        padding-left: 30px;
+    }
+    .need-consult__info ul li, .observation__info ul li {
+        font-size: 22px;
+        line-height: 23.98px;
+    }
+    .observation__flex {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 1020px){
+    .need-consult__info ul:after {
+        bottom: -100px;
+        right: 15px;
+    }
+    .need-consult__info ul li, .observation__info ul li {
+        font-size: 18px;
+        line-height: 20.98px;
+    }
+    .observation__info:after {
+        right: 48px;
+        bottom: -22px;
+    }
+    .observation-sec {
+        margin-top: 100px;
+        margin-bottom: 90px;
+    }
+}
+@media (max-width: 760px){
+    .need-consult__info {
+        margin-top: 30px;
+    }
+    .need-consult__info:before {
+        left: 35px;
+        top: -40px;
+    }
+    .need-consult__info ul {
+        margin-top: 25px;
+        padding-left: 25px;
+    }
+    .need-consult__info:after {
+        right: 4px;
+        top: 34px;
+    }
+    .need-consult__info ul:after{
+        display: none;
+    }
+    .observation-sec {
+        margin-top: 70px;
+        margin-bottom: 80px;
+    }
+    .observation__flex {
+        flex-direction: column;
+    }
+    .observation__info ul {
+        margin-left: 0;
+        padding-left: 20px;
+    }
+}

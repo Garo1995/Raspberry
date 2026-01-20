@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'a_FuturaRound';
+    src: url('AFuturaRoundBold.eot');
+    src: local('a_FuturaRound Bold'), local('AFuturaRoundBold'),
+    url('AFuturaRoundBold.eot?#iefix') format('embedded-opentype'),
+    url('AFuturaRoundBold.woff2') format('woff2'),
+    url('AFuturaRoundBold.woff') format('woff'),
+    url('AFuturaRoundBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'a_FuturaRound';
+    src: url('AFuturaRound.eot');
+    src: local('a_FuturaRound'), local('AFuturaRound'),
+    url('AFuturaRound.eot?#iefix') format('embedded-opentype'),
+    url('AFuturaRound.woff2') format('woff2'),
+    url('AFuturaRound.woff') format('woff'),
+    url('AFuturaRound.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'cornpilerg';
+    src: url('cornpilerg_bold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

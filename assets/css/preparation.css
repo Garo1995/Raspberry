@@ -1,0 +1,213 @@
+.difficult-child-sec{
+    margin-top: 40px;
+}
+.difficult-child__cnt{
+    margin-top: 92px;
+}
+.difficult-child__cnt h3{
+    color: #B60949;
+    text-align: center;
+}
+
+.difficult-child__wrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 54px;
+    gap: 35px 55px;
+    position: relative;
+}
+.difficult-child__wrap:before{
+    content: url("../img/star-yellow.svg");
+    position: absolute;
+    left: 135px;
+    top: -60px;
+}
+
+.difficult-child__wrap:after{
+    content: url("../img/star-yellow.svg");
+    position: absolute;
+    right: 52px;
+    top: -90px;
+}
+
+.difficult-child__box{
+    width: calc(50% - 29px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 52px;
+}
+.difficult-child__text{
+    max-width: 385px;
+    width: 100%;
+}
+.difficult-child__text p{
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 25px;
+}
+.difficult-child__photo{
+    display: flex;
+    max-width: 229px;
+    width: 100%;
+}
+
+.key-course-res{
+    margin-top: 80px;
+    margin-bottom: 200px;
+}
+
+.key-course-res h3{
+    color: #B60949;
+    text-align: center;
+}
+.key-course__flex{
+    margin-top: 70px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 50px;
+}
+.key-course__photo{
+    display: flex;
+    max-width: 610px;
+    width: 100%;
+}
+.key-course__photo img{
+    border-radius: 50px;
+    width: 100%;
+}
+.key-course__info{
+    max-width: 713px;
+    width: 100%;
+    position: relative;
+}
+.key-course__info:after{
+    content: url("../img/star-yellow2.svg");
+    position: absolute;
+    right: 64px;
+    top: 110px;
+}
+.key-course__info ul{
+    list-style-type: disc;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+.key-course__info ul li{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.98px;
+    text-align: left;
+    color: #000000;
+}
+
+
+
+.contact-page{
+    margin-top: 30px;
+}
+.raspberry-pag-sec{
+    margin-top: 170px;
+}
+@media (max-width: 1399px){
+    .difficult-child__cnt h3 {
+        max-width: 920px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .difficult-child__box {
+        width: calc(50% - 28px);
+        gap: 25px;
+    }
+    .key-course__info ul li {
+        font-size: 28px;
+        line-height: 34px;
+    }
+}
+
+@media (max-width: 1299px){
+    .difficult-child__wrap {
+        gap: 30px 30px;
+    }
+    .difficult-child__box {
+        width: calc(50% - 16px);
+        gap: 20px;
+    }
+    .difficult-child__photo {
+        max-width: 190px;
+    }
+    .key-course__info ul {
+        gap: 15px;
+    }
+
+}
+
+@media (max-width: 1199px){
+    .difficult-child-sec {
+        margin-top: 30px;
+    }
+    .difficult-child__cnt {
+        margin-top: 50px;
+    }
+    .difficult-child__photo {
+        max-width: 165px;
+    }
+    .difficult-child__text p {
+        margin-top: 15px;
+    }
+    .key-course__info ul li {
+        font-size: 22px;
+        line-height: 28.98px;
+    }
+    .key-course-res {
+        margin-bottom: 130px;
+    }
+    .raspberry-pag-sec {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 1020px){
+    .difficult-child__cnt {
+        margin-top: 35px;
+    }
+    .difficult-child__wrap:before {
+        left: 71px;
+        top: -40px;
+    }
+    .difficult-child__wrap:after {
+        right: 35px;
+        top: -34px;
+    }
+    .difficult-child__box {
+        gap: 20px;
+        max-width: 600px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .key-course__flex {
+        margin-top: 40px;
+        gap: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .key-course__info {
+        max-width: 613px;
+        padding-left: 25px;
+    }
+    .key-course__info ul li {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .key-course-res {
+        margin-bottom: 80px;
+    }
+    .key-course__info:after {
+        right: 38px;
+        top: 64px;
+    }
+    .raspberry-pag-sec {
+        margin-top: 80px;
+    }
+}

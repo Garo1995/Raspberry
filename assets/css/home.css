@@ -1,0 +1,1551 @@
+h1{
+
+    font-family: 'cornpilerg';
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    text-align: left;
+    color: #FFFFFF;
+}
+h2{
+    font-family: 'cornpilerg';
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+    color: #B60949;
+}
+h3{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    color: #000000;
+}
+h4{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+    color: #000000;
+}
+.btn-red{
+    background: #B60949;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px 50px;
+}
+.btn-red:hover{
+    background: #810332;
+}
+
+
+.correction__sec{
+    background: linear-gradient(90deg, #F6B096 0%, #E4658E 100%);
+    padding: 45px 0 125px;
+}
+.correction__flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.correction__info{
+    max-width: 750px;
+    width: 100%;
+    position: relative;
+}
+.correction__info:after{
+    content: "";
+    position: absolute;
+    bottom: -204px;
+    right: -69px;
+    background-image: url("../img/keter.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 294px;
+    width: 100%;
+    height: 288px;
+}
+.correction__info p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 41px;
+    max-width: 530px;
+    width: 100%;
+}
+.correction__info .btn-red{
+    margin-top: 54px;
+    max-width: 252px;
+    height: 60px;
+    width: 100%;
+}
+
+.correction__pic{
+    display: flex;
+    position: relative;
+    margin-right: 100px;
+}
+.correction__pic:before{
+    content: "";
+    position: absolute;
+    top: 90px;
+    left: -90px;
+    background-image: url("../img/star1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 49px;
+    height: 49px;
+}
+.correction__pic:after{
+    content: "";
+    position: absolute;
+    top: 39px;
+    right: -84px;
+    background-image: url("../img/star2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 68px;
+    height: 68px;
+}
+
+.correct-skay-one{
+    display: flex;
+    position: absolute;
+    bottom: -106px;
+    left: 0;
+}
+
+.correct-skay-two{
+    position: absolute;
+    display: flex;
+    bottom: -85px;
+    right: 579px;
+    z-index: 1;
+
+}
+.correct-skay-three{
+    position: absolute;
+    display: flex;
+    bottom: -138px;
+    right: 0;
+}
+
+
+.our-directions{
+    margin-top: 113px;
+}
+.our-directions__cnt h2{
+    font-size: 80px;
+    line-height: 96px;
+
+}
+.our-directions__cnt .btn-red{
+    margin: 60px auto 0;
+    max-width: 380px;
+    height: 80px;
+    font-size: 32px;
+    line-height: 38.98px;
+    padding: 5px;
+}
+.our-directions__fon{
+    position: relative;
+    margin-top: 10px;
+}
+.our-directions__fon:before{
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 100%;
+    background-image: url("../img/direct-start.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 431px;
+}
+.our-directions__fon a{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.98px;
+    text-align: center;
+    color: #890737;
+    text-decoration: underline;
+}
+.psychologist-therapist{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 185px;
+    max-width: 1080px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.neuropsychologist{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 145px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.neuropsychologist a + a{
+    max-width: 170px;
+    width: 100%;
+}
+.our-directions__photo{
+    display: flex;
+    max-width: 975px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.our-directions__rel{
+    position: relative;
+}
+
+.directions-slider__photo{
+    position: relative;
+    display: flex;
+}
+.directions-slider__photo h2{
+    position: absolute;
+    top: 20px;
+    width: 100%;
+}
+.directions-slider__photo img{
+    width: 100%;
+    border-radius: 50px;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after{
+    display: none;
+}
+.swiper-button-prev, .swiper-button-next{
+    background: #FFFFFF;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.swiper-button-prev{
+    left: 28px;
+}
+.swiper-button-next{
+    right: 28px;
+}
+
+.swiper-button-prev:before, .swiper-button-next:before{
+    content: "";
+    position: absolute;
+    border-top: 2px solid #000000;
+    border-right: 2px solid #000000;
+    width: 20px;
+    height: 20px;
+}
+.swiper-button-prev:before{
+    transform: rotate(-135deg);
+    left: 27px;
+}
+.swiper-button-next:before{
+    transform: rotate(45deg);
+    right: 28px;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 50%;
+    background: unset;
+    border: 2px solid #FFFFFF;
+    opacity: 1;
+}
+.swiper-pagination .swiper-pagination-bullet-active {
+    background: #FFFFFF;
+
+}
+
+.our-directions__rel .swiper-pagination{
+    bottom: 22px;
+}
+
+
+.sign-lesson{
+    margin-top: 20px;
+}
+.sign-lesson__fon{
+    display: flex;
+    align-items: center;
+    background: #F6B09680;
+    border-radius: 50px;
+    width: 100%;
+    padding: 50px 90px 50px 68px;
+    justify-content: space-between;
+    gap: 30px;
+}
+.sign-lesson__photo{
+    display: flex;
+}
+.sign-lesson__info{
+    max-width: 548px;
+    width: 100%;
+}
+.sign-lesson__info h2{
+    font-family: 'a_FuturaRound';
+    text-align: left;
+    color: #000000;
+    font-weight: 400;
+}
+.sign-lesson__info p{
+    margin-top: 31px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.23px;
+    text-align: left;
+    color: #000000;
+    max-width: 410px;
+    width: 100%;
+}
+.sign-lesson__form{
+    margin-top: 48px;
+    max-width: 488px;
+    width: 100%;
+}
+.sign-lesson__form small{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.05px;
+    text-align: left;
+    color: #000000;
+}
+.sign-lesson__inp{
+    margin-top: 11px;
+    width: 100%;
+}
+.sign-lesson__inp label{
+    width: 100%;
+    display: flex;
+}
+.sign-lesson__inp input{
+    background: #FFFFFF;
+    border-radius: 50px;
+    width: 100%;
+    height: 84px;
+    padding: 15px 5px 15px 48px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+    color: #000000;
+}
+.sign-lesson__form .btn-red{
+    margin-top: 15px;
+    max-width: 100%;
+    height: 84px;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 400;
+    width: 100%;
+    padding: 15px 20px;
+}
+
+.sign-lesson-skay{
+    position: absolute;
+    bottom: -125px;
+    left: 0;
+    max-width: 564px;
+    width: 100%;
+    display: flex;
+}
+.sign-lesson__form p{
+    margin-top: 13px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.05px;
+    color: #000000;
+    max-width: 100%;
+}
+.sign-lesson__form p a{
+    color: #000000;
+    border-bottom: 1px solid #000000;
+    transition: 0.3s;
+}
+.sign-lesson__form p a:hover{
+    border-bottom: 1px solid transparent;
+}
+.contact-sec{
+    margin-top: 148px;
+}
+.contact__main{
+    position: relative;
+}
+.contact__main h2{
+    text-align: center;
+}
+.contact__map{
+    display: flex;
+    margin-top: 50px;
+    height: 720px;
+
+}
+.contact__map iframe{
+    width: 100%;
+    border-radius: 50px;
+}
+.contact__fon{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    max-width: 594px;
+    width: 100%;
+    height: 453px;
+    background-image: url("../img/contact-fon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+}
+
+.contact__fon p{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 353px;
+    width: 100%;
+}
+.contact__fon span{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 124px;
+    width: 100%;
+}
+.contact__rel{
+    margin-top: 18px;
+    overflow: hidden;
+}
+.contact__slider{
+    width: 1702px;
+}
+.contact__box{
+    background: #F6F6F6;
+    border-radius: 50px;
+    max-width: 414px;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    height: 275px;
+}
+.our-talented-sec{
+    margin-top: 132px;
+}
+.our-talented__wrap{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.our-talented__cnt{
+    position: relative;
+    width: calc(50% - 10px);
+    padding: 62px 20px 62px 62px;
+    display: flex;
+    align-items: center;
+}
+.our-talented__cnt:before{
+    content: url("../img/st1.svg");
+    position: absolute;
+    top: 63px;
+    right: 100px;
+}
+.our-talented__cnt:after{
+    content: url("../img/lin.svg");
+    position: absolute;
+    bottom: 0;
+    left: 226px;
+}
+.our-talented__box{
+    position: relative;
+    width: calc(50% - 10px);
+    background: #F6B09680;
+    padding: 57px;
+    border-radius: 50px;
+
+}
+.hedgehog-numbers{
+    margin-top: 40px;
+}
+.hedgehog-numbers ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 20px;
+}
+.hedgehog-numbers ul li{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    width: 31%;
+}
+.hedgehog-numbers ul li strong{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    color: #000000;
+}
+.hedgehog-numbers ul li p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.05px;
+    text-align: left;
+    max-width: 110px;
+    width: 100%;
+}
+.hedgehog-numbers ul li:last-child {
+    width: 37%;
+}
+.personal-interviews{
+    margin-top: 37px;
+}
+.personal-interviews p{
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 15px;
+}
+.help-children{
+    margin-top: 48px;
+}
+.help-children ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 25px;
+}
+.help-children ul li{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    color: #000000;
+    min-width: 200px;
+}
+
+.star-whit-one:before{
+    content: url("../img/star-whit1.svg");
+    position: absolute;
+    top: 55px;
+    right: 72px;
+}
+.star-whit-one:after{
+    content: url("../img/star-whit2.svg");
+    position: absolute;
+    bottom: 56px;
+    right: 136px;
+}
+
+.star-whit-two:before{
+    content: url("../img/star-whit2.svg");
+    position: absolute;
+    top: 146px;
+    right: 194px;
+}
+.star-whit-two:after{
+    content: url("../img/star-whit1.svg");
+    position: absolute;
+    bottom: 69px;
+    right: 99px;
+}
+
+.star-whit-three:before{
+    content: url("../img/stars.svg");
+    position: absolute;
+    top: 40px;
+    right: 64px;
+}
+
+
+.classes-sec{
+    margin-top: 86px;
+
+}
+.classes__cnt{
+    margin-top: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.classes__info{
+    max-width: 600px;
+    width: 100%;
+}
+.classes__info h3{
+    color: #B60949;
+}
+.classes__info p{
+    margin-top: 38px;
+    font-size: 24px;
+    line-height: 29.23px;
+}
+.classes__stars{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.classes__rel{
+    position: relative;
+    max-width: 709px;
+    width: 100%;
+}
+.classes__photo{
+    width: 100%;
+    display: flex;
+}
+.classes__photo img{
+    border-radius: 50px;
+    width: 100%;
+
+}
+.feedback-parents{
+    margin-top: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+}
+.feedback-parents__phon{
+    display: flex;
+    gap: 39px;
+    align-items: center;
+}
+.feedback-parents__phon img{
+    border-radius: 25px;
+}
+.feedback-parents__pic{
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.feedback-parents__info{
+    max-width: 590px;
+    width: 100%;
+}
+.feedback-parents__info h3{
+    color: #B60949;
+}
+.feedback-parents__info p{
+    margin-top: 52px;
+    font-size: 24px;
+    line-height: 29px;
+}
+.feedback-parents__star{
+    display: flex;
+    margin-top: 55px;
+}
+
+
+.hedgehog-children{
+    margin-top: 130px;
+}
+.hedgehog-children__title p{
+    margin-top: 70px;
+    font-size: 24px;
+    line-height: 29px;
+
+}
+
+.hedgehog-children .hedgehog-children{
+    margin-top: 130px;
+
+}
+.hedgehog-children .sign-lesson__fon{
+    background: #E4658E80;
+    margin-top: 130px;
+}
+.hedgehog-children .sign-lesson__info h2 {
+    color: #ffffff;
+}
+.hedgehog-children .sign-lesson__info>p{
+    color: #ffffff;
+}
+
+
+
+@media (max-width: 1699px){
+    .correct-skay-three {
+        max-width: 653px;
+    }
+    .correct-skay-two {
+        bottom: -85px;
+        right: 492px;
+        max-width: 550px;
+        width: 100%;
+    }
+}
+@media (max-width: 1599px){
+    .correct-skay-one {
+        bottom: -105px;
+        max-width: 231px;
+        width: 100%;
+    }
+    .correct-skay-two {
+        bottom: -104px;
+        right: 480px;
+        max-width: 494px;
+    }
+    .correct-skay-three {
+        max-width: 553px;
+        bottom: -106px;
+    }
+    .sign-lesson-skay {
+        bottom: -133px;
+        max-width: 464px;
+    }
+    .sign-lesson__form .btn-red {
+        font-size: 20px;
+    }
+}
+@media (max-width: 1399px){
+    h1 {
+        font-size: 86px;
+        line-height: 82px;
+    }
+    .correction__info p {
+        margin-top: 24px;
+    }
+    .correct-skay-two {
+        bottom: -91px;
+        right: 462px;
+        max-width: 424px;
+    }
+    .correct-skay-three {
+        max-width: 503px;
+        bottom: -118px;
+    }
+    .our-directions__cnt h2 {
+        font-size: 70px;
+        line-height: 77px;
+    }
+    .our-directions__fon a {
+        font-size: 26px;
+        line-height: 27.98px;
+    }
+    h2 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .sign-lesson__inp input {
+        height: 72px;
+        padding: 15px 5px 15px 30px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .sign-lesson__form .btn-red {
+        height: 72px;
+    }
+    .sign-lesson__fon {
+        padding: 40px 40px 40px 50px;
+    }
+    .sign-lesson-skay {
+        bottom: -100px;
+        max-width: 393px;
+    }
+    .contact__fon {
+        bottom: 25px;
+        left: 25px;
+        max-width: 500px;
+        height: 380px;
+        gap: 30px;
+    }
+    .contact__fon p {
+        font-size: 28px;
+        line-height: 32px;
+        max-width: 319px;
+    }
+    .contact__map {
+
+        margin-top: 40px;
+        height: 580px;
+    }
+    .contact__slider {
+        width: 100%;
+    }
+    .our-talented__box {
+        padding: 30px;
+        border-radius: 35px;
+    }
+    .hedgehog-numbers ul li {
+        width: 30%;
+    }
+    .hedgehog-numbers ul li:last-child {
+        width: 38%;
+    }
+    .our-talented__cnt {
+        padding: 32px;
+    }
+    .star-whit-two:after {
+        bottom: 29px;
+        right: 48px;
+    }
+    .star-whit-two:before {
+        top: 101px;
+        right: 127px;
+    }
+    .help-children {
+        margin-top: 33px;
+    }
+    .help-children ul {
+        gap: 25px 17px;
+    }
+    .hedgehog-numbers ul {
+        gap: 30px 20px;
+    }
+    .classes__rel {
+        max-width: 600px;
+    }
+    .swiper-button-prev, .swiper-button-next {
+        width: 50px;
+        height: 50px;
+    }
+    .swiper-button-prev {
+        left: 15px;
+    }
+    .swiper-button-next {
+        right: 15px;
+    }
+    .swiper-button-prev:before, .swiper-button-next:before {
+        width: 14px;
+        height: 14px;
+    }
+    .swiper-button-prev:before {
+        left: 20px;
+    }
+    .swiper-button-next:before {
+        right: 20px;
+    }
+    .classes__info p {
+        margin-top: 21px;
+        font-size: 22px;
+        line-height: 27.23px;
+    }
+    .feedback-parents__info p {
+        margin-top: 22px;
+        font-size: 21px;
+        line-height: 25px;
+    }
+    .feedback-parents__phon {
+        gap: 20px;
+    }
+    .feedback-parents__star {
+        margin-top: 25px;
+    }
+    .feedback-parents__info {
+        max-width: 550px;
+    }
+    .feedback-parents__pic {
+        gap: 28px;
+        max-width: 210px;
+        width: 100%;
+    }
+    .feedback-parents__phon img {
+        max-width: 350px;
+        width: 100%;
+    }
+    h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .hedgehog-children__title p {
+        margin-top: 47px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
+@media (max-width: 1299px){
+    h1 {
+        font-size: 74px;
+        line-height: 74px;
+    }
+    .correction__info {
+        max-width: 565px;
+    }
+    .correction__info .btn-red {
+        margin-top: 36px;
+        max-width: 220px;
+    }
+    .correction__pic {
+        margin-right: 33px;
+    }
+    .correction__pic:after {
+        top: 0;
+        right: -9px;
+        width: 58px;
+        height: 58px;
+    }
+    .correction__info:after {
+        bottom: -192px;
+        right: -84px;
+        max-width: 231px;
+        height: 226px;
+    }
+    .correction__sec {
+        padding: 35px 0 53px;
+    }
+    .correct-skay-three {
+        max-width: 389px;
+        bottom: -72px;
+    }
+    .correct-skay-two {
+        bottom: -64px;
+        right: 318px;
+        max-width: 391px;
+    }
+    .our-directions__cnt h2 {
+        font-size: 60px;
+        line-height: 65px;
+    }
+    .our-directions__cnt .btn-red {
+        margin: 30px auto 0;
+        max-width: 319px;
+        height: 70px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .our-directions__photo {
+        max-width: 800px;
+    }
+    .psychologist-therapist {
+        top: 139px;
+        max-width: 780px;
+    }
+    .neuropsychologist {
+        bottom: 84px;
+        max-width: 1040px;
+        padding: 0;
+    }
+    .our-directions__fon a {
+        font-size: 22px;
+        line-height: 25.98px;
+    }
+    h2 {
+        font-size: 42px;
+        line-height: 48px;
+    }
+    .sign-lesson__info {
+        max-width: 452px;
+    }
+    .sign-lesson__form {
+        margin-top: 25px;
+    }
+    .sign-lesson__info p {
+        margin-top: 18px;
+        font-size: 20px;
+        line-height: 24.23px;
+        max-width: 385px;
+    }
+    .contact__fon {
+        bottom: 20px;
+        left: 20px;
+        max-width: 380px;
+        height: 290px;
+        gap: 15px;
+    }
+    .contact__fon p {
+        font-size: 20px;
+        line-height: 24px;
+        max-width: 230px;
+    }
+    .contact__map {
+        height: 500px;
+    }
+    h4 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .our-talented__box {
+        padding: 22px;
+        border-radius: 30px;
+    }
+    .help-children {
+        margin-top: 21px;
+    }
+    .help-children ul {
+        gap: 21px 14px;
+    }
+    .hedgehog-numbers ul {
+        gap: 20px 12px;
+    }
+    .star-whit-one:before {
+        top: 27px;
+        right: 38px;
+    }
+    .star-whit-one:after {
+        bottom: 31px;
+        right: 74px;
+    }
+    .classes__cnt {
+        margin-top: 40px;
+    }
+    .hedgehog-children {
+        margin-top: 90px;
+    }
+    .hedgehog-children .sign-lesson__fon {
+        margin-top: 90px;
+    }
+
+}
+@media (max-width: 1199px){
+    h1 {
+        font-size: 65px;
+        line-height: 66px;
+    }
+    .btn-red {
+        padding: 12px 30px;
+    }
+    .correction__info {
+        max-width: 497px;
+    }
+    .correction__pic {
+        max-width: 400px;
+        width: 100%;
+    }
+    .correct-skay-one {
+        bottom: -77px;
+        max-width: 156px;
+    }
+    .correct-skay-two {
+        bottom: -50px;
+        right: 290px;
+        max-width: 308px;
+    }
+    .correct-skay-three {
+        max-width: 343px;
+        bottom: -53px;
+    }
+    .correction__info:after {
+        bottom: -124px;
+        right: -102px;
+        max-width: 190px;
+        height: 186px;
+    }
+    .our-directions__cnt .btn-red {
+        margin: 25px auto 0;
+        max-width: 297px;
+        height: 60px;
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .our-directions__fon:before {
+        top: -15px;
+        height: 314px;
+    }
+    h2 {
+        font-size: 40px;
+        line-height: 42px;
+    }
+    .sign-lesson__info {
+        max-width: 415px;
+    }
+    .sign-lesson__info p {
+        margin-top: 19px;
+        font-size: 16px;
+        line-height: 22.23px;
+        max-width: 378px;
+    }
+    .sign-lesson__inp input {
+        height: 69px;
+        padding: 15px 5px 15px 24px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .sign-lesson__form .btn-red {
+        height: 68px;
+        font-size: 18px;
+    }
+    .sign-lesson-skay {
+        bottom: -72px;
+        max-width: 301px;
+    }
+    .contact-sec {
+        margin-top: 90px;
+    }
+    .our-talented__cnt:before {
+        top: 24px;
+        right: 42px;
+    }
+    .our-talented__cnt:after {
+        left: 280px;
+    }
+    .hedgehog-numbers ul li strong {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .hedgehog-numbers ul li:last-child {
+        width: 44%;
+    }
+    .hedgehog-numbers {
+        margin-top: 30px;
+    }
+    .help-children ul {
+        gap: 16px 10px;
+    }
+    .help-children ul {
+        gap: 16px 10px;
+        flex-direction: column;
+    }
+    .classes__rel {
+        max-width: 490px;
+    }
+    .feedback-parents__info {
+        max-width: 470px;
+    }
+
+    .feedback-parents {
+        margin-top: 70px;
+    }
+    .feedback-parents__phon img {
+        max-width: 290px;
+    }
+    .feedback-parents__pic {
+        gap: 22px;
+        max-width: 185px;
+    }
+    .hedgehog-children__title p {
+        margin-top: 25px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .hedgehog-children .sign-lesson__fon {
+        margin-top: 50px;
+    }
+    .classes__info p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+
+
+@media (max-width: 1020px){
+    h1 {
+        font-size: 58px;
+        line-height: 54px;
+    }
+    .correction__info p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .correction__info .btn-red {
+        margin-top: 20px;
+        max-width: 198px;
+        height: 50px;
+    }
+    .correction__pic:before {
+        top: 28px;
+        left: -18px;
+        width: 40px;
+        height: 40px;
+    }
+    .correct-skay-two{
+        display: none;
+    }
+    .correction__pic {
+        max-width: 328px;
+        margin-right: 0;
+    }
+    .correction__info {
+        max-width: 352px;
+    }
+    .correction__pic:after {
+        top: -10px;
+        right: 0;
+        width: 50px;
+        height: 50px;
+    }
+    .correct-skay-three {
+        max-width: 298px;
+        bottom: -76px;
+    }
+    .correction__info:after {
+        bottom: -80px;
+        right: -81px;
+        max-width: 146px;
+        height: 143px;
+    }
+    .our-directions__cnt h2 {
+        font-size: 48px;
+        line-height: 56px;
+    }
+    .our-directions__cnt .btn-red {
+        max-width: 285px;
+        height: 55px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .our-directions__photo {
+        max-width: 600px;
+    }
+    .our-directions__fon:before {
+        height: 220px;
+    }
+    .our-directions__fon a {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .psychologist-therapist {
+        top: 103px;
+        max-width: 530px;
+    }
+    .directions-slider__photo img {
+        width: 100%;
+        border-radius: 30px;
+    }
+    .sign-lesson__fon {
+        padding: 40px 30px;
+    }
+    .sign-lesson__photo{
+        display: none;
+    }
+    .sign-lesson__info {
+        max-width: 715px;
+    }
+    .sign-lesson-skay{
+        display: none;
+    }
+
+    .sign-lesson__form p{
+        max-width: 100%;
+    }
+    .sign-lesson__fon {
+        gap: 30px;
+    }
+    .contact__fon {
+        bottom: 14px;
+        left: 13px;
+        max-width: 350px;
+        height: 267px;
+        gap: 14px;
+    }
+    .contact__fon p {
+        font-size: 18px;
+        line-height: 22px;
+        max-width: 200px;
+    }
+    .contact__map {
+        height: 470px;
+    }
+    .contact__map iframe {
+        border-radius: 30px;
+    }
+    .contact__box {
+        border-radius: 30px;
+        max-width: 400px;
+        height: 266px;
+    }
+    .contact__slider {
+        width: 850px;
+    }
+    .our-talented-sec {
+        margin-top: 80px;
+    }
+    .our-talented__wrap {
+        margin-top: 30px;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .our-talented__cnt {
+        padding: 0;
+        width: 100%;
+        margin-top: 25px;
+    }
+    .our-talented__cnt:before{
+        display: none;
+    }
+    .our-talented__cnt:after{
+        display: none;
+
+    }
+    .our-talented__box {
+        width: 100%;
+        max-width: 600px;
+    }
+    .help-children ul {
+        gap: 16px 20px;
+        flex-direction: row;
+    }
+
+    .star-whit-three:before {
+        top: 19px;
+        right: 20px;
+    }
+    h3 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+    .classes__cnt {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .classes__info p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 14px;
+    }
+    .classes__rel {
+        max-width: 700px;
+    }
+    .feedback-parents {
+        margin-top: 60px;
+        flex-direction: column-reverse;
+        width: 100%;
+        align-items: flex-start;
+    }
+    .hedgehog-children__title p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    h2 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+}
+@media (max-width: 760px){
+    .correction__flex {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+    .correction__info {
+        max-width: 552px;
+    }
+    .correction__info:after{
+        display: none;
+    }
+    .correction__pic {
+        max-width: 285px;
+        margin: 0 auto;
+    }
+    .correct-skay-three {
+        max-width: 260px;
+        bottom: -50px;
+    }
+    .our-directions__photo {
+        max-width: 450px;
+    }
+
+    .neuropsychologist a + a {
+        max-width: 110px;
+    }
+    .psychologist-therapist {
+        top: 80px;
+        max-width: 430px;
+    }
+    .directions-slider__photo img {
+        height: 340px;
+        object-fit: cover;
+    }
+    .contact__fon {
+        bottom: 10px;
+        left: 9px;
+        max-width: 280px;
+        height: 213px;
+        gap: 12px;
+    }
+    .contact__fon p {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 200px;
+    }
+    .contact__slider {
+        width: 100%;
+    }
+    .personal-interviews {
+        margin-top: 20px;
+    }
+    .help-children ul {
+        gap: 10px 20px;
+        flex-direction: column;
+    }
+    .classes__cnt {
+        margin-top: 30px;
+    }
+    .feedback-parents__info p {
+        margin-top: 16px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .sign-lesson__fon {
+        border-radius: 30px;
+    }
+
+
+
+
+}
+
+@media (max-width: 570px){
+    .classes__stars{
+        display: none;
+    }
+    .classes__photo img {
+        border-radius: 25px;
+    }
+    .correct-skay-three {
+        max-width: 206px;
+        bottom: -40px;
+    }
+    .correct-skay-one {
+        bottom: -60px;
+        max-width: 135px;
+    }
+    .our-directions {
+        margin-top: 84px;
+    }
+    .psychologist-therapist {
+        top: 0;
+        max-width: 430px;
+        position: relative;
+        margin-top: 30px;
+    }
+    .our-directions__fon:before{
+        display: none;
+    }
+    .neuropsychologist {
+        bottom: 0;
+        max-width: 1040px;
+        padding: 0;
+        position: relative;
+        margin-top: 24px;
+    }
+    .our-directions__fon a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .neuropsychologist a + a {
+        max-width: 160px;
+        text-align: right;
+    }
+    .swiper-button-prev, .swiper-button-next {
+        width: 40px;
+        height: 40px;
+    }
+    .swiper-button-prev:before, .swiper-button-next:before {
+        width: 11px;
+        height: 11px;
+    }
+    .swiper-button-prev:before {
+        left: 16px;
+    }
+    .swiper-button-next:before {
+        right: 16px;
+    }
+    .sign-lesson__fon {
+        padding: 30px 20px;
+    }
+    .sign-lesson__inp input {
+        height: 60px;
+        padding: 12px 5px 12px 20px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .sign-lesson__form .btn-red {
+        height: 60px;
+        font-size: 14px;
+    }
+    .sign-lesson__form p {
+        font-size: 14px;
+        line-height: 17.05px;
+    }
+    .contact-sec {
+        margin-top: 70px;
+    }
+    .contact__map {
+        height: 450px;
+    }
+    .contact__fon {
+        bottom: 10px;
+        left: 9px;
+        max-width: 250px;
+        height: 191px;
+        gap: 10px;
+    }
+    .contact__fon p {
+        font-size: 14px;
+        line-height: 18px;
+        max-width: 174px;
+    }
+    .our-talented__cnt {
+        margin-top: 0;
+    }
+    h4 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .hedgehog-numbers ul li {
+        width: 48%;
+    }
+    .hedgehog-numbers ul li:last-child {
+        width: 100%;
+    }
+    .star-whit-one:before {
+        top: 17px;
+        right: 14px;
+    }
+    .star-whit-two:before {
+        top: 63px;
+        right: 50px;
+    }
+    .classes-sec {
+        margin-top: 70px;
+    }
+    h3 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .feedback-parents__phon {
+        gap: 20px;
+        flex-direction: column;
+        width: 100%;
+    }
+    .feedback-parents__phon img {
+        max-width: 350px;
+    }
+    .feedback-parents__pic{
+        display: none;
+    }
+
+
+
+
+
+
+}

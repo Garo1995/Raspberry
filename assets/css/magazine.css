@@ -1,0 +1,247 @@
+.magazine-sec{
+    margin-top: 88px;
+
+}
+.magazine-sec:after{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 995px;
+    background-image: url("../img/skay5.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 567px;
+    width: 100%;
+    height: 384px;
+}
+.magazine__flex{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 23px;
+}
+
+.magazine__left{
+    max-width: 953px;
+    width: 100%;
+}
+.magazine__box{
+    width: 100%;
+    border-radius: 50px;
+    background: #F6F6F6;
+    padding: 42px;
+    margin-bottom: 34px;
+}
+
+.magazine__logo{
+    display: flex;
+    max-width: 221px;
+    width: 100%;
+}
+.magazine__box h3{
+    margin-top: 34px;
+}
+.magazine__box small{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #CC0955;
+}
+.magazine__box p{
+    margin-top: 18px;
+    max-width: 811px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+
+}
+
+.magazine__photo{
+    display: flex;
+    margin-top: 18px;
+}
+.magazine__photo img{
+    width: 100%;
+    border-radius: 25px;
+}
+
+
+.magazine__border{
+    background: #ffffff;
+    border: 1px solid #C1C1C1;
+}
+
+
+.magazine__right{
+    max-width: 464px;
+    width: 100%;
+    background: #F6B096;
+    border-radius: 50px;
+    padding: 50px;
+}
+.magazine__right h2{
+    font-size: 51px;
+    line-height: 62px;
+    font-weight: 400;
+}
+.magazine__right .sign-lesson__inp input {
+    height: 70px;
+    padding: 15px 5px 15px 30px;
+    font-size: 30px;
+    line-height: 30px;
+}
+.magazine__right .sign-lesson__form .btn-red {
+    height: 70px;
+    font-size: 16px;
+    line-height: 23px;
+    padding: 10px 20px;
+}
+
+.magazine__right .sign-lesson__info>p {
+    margin-top: 31px;
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 342px;
+}
+
+.magazine__hedfehog{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    position: relative;
+}
+.magazine__hedfehog:before{
+    content: url("../img/star-red.svg");
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.magazine-single{
+    margin-top: 85px;
+}
+.magazine-single .magazine__box{
+    background: unset;
+    padding: 0;
+}
+.magazine-single .magazine__left{
+    max-width: 876px;
+    width: 100%;
+    margin-top: 50px;
+}
+.paginat-magazine{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.paginat-magazine a{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #CC0955;
+}
+
+
+
+@media (max-width: 1699px){
+    .magazine-sec:after {
+        top: 1062px;
+        max-width: 418px;
+        height: 273px;
+    }
+}
+@media (max-width: 1399px){
+    .magazine__right {
+        max-width: 400px;
+        padding: 30px;
+    }
+}
+
+@media (max-width: 1199px){
+    .magazine__right {
+        max-width: 366px;
+        padding: 26px;
+        border-radius: 30px;
+    }
+    .magazine__right h2 {
+        font-size: 40px;
+        line-height: 47px;
+    }
+    .magazine__right .sign-lesson__form .btn-red {
+        font-size: 15px;
+        padding: 10px 8px;
+    }
+    .magazine-sec:after {
+        top: 934px;
+        max-width: 313px;
+        height: 207px;
+    }
+    .magazine__box {
+        border-radius: 30px;
+        padding: 30px;
+    }
+    .magazine__box h3 {
+        margin-top: 20px;
+    }
+
+
+    .magazine__right .sign-lesson__inp input {
+        height: 60px;
+        padding: 10px 5px 10px 23px;
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .magazine__right .sign-lesson__form .btn-red {
+        height: 60px;
+    }
+    .magazine-sec {
+        margin-top: 50px;
+    }
+
+}
+
+@media (max-width: 1020px){
+    .magazine__flex {
+        flex-direction: column;
+    }
+    .magazine-sec:after{
+        display: none;
+    }
+    .magazine__right {
+        max-width: 766px;
+    }
+    .magazine-single .magazine__left {
+        max-width: 976px;
+        margin-top: 0;
+    }
+    .magazine-single {
+        margin-top: 40px;
+    }
+}
+@media (max-width: 570px){
+    .magazine__box {
+        border-radius: 30px;
+        padding: 20px;
+    }
+    .magazine__right h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .magazine__right {
+        padding: 20px;
+    }
+    .magazine__right .sign-lesson__info>p {
+        margin-top: 17px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+
+}
